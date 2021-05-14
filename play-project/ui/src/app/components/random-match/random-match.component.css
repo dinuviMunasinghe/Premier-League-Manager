@@ -1,0 +1,52 @@
+.image {
+  background-image: url("src/assets/images/purple-one.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(60%);
+  min-height: 90vh;
+  height: auto;
+}
+
+.container {
+  position: relative;
+}
+
+.block {
+  position: absolute;
+  top: 70px;
+  left: 400px;
+  background-color:  #33334d;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 700px;
+  height: 500px;
+}
+
+.buttons{
+  position: absolute;
+}
+
+.button{
+  background-color: #7575a3;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  font-size: 14px;
+  margin: 35px 250px;
+  transition: 0.3s;
+}
+
+.button:hover{
+  background-color: #9900ff;
+  color: white;
+}
+
+.table{
+  margin: 10px 250px;
+  position: center;
+  color:  #fff;
+  font-size: 14px;
+}

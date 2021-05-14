@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="image"></div>
+
+  <div class="block">
+    <div class="buttons">
+      <button (click)="sortByPoints()" class="button"><b>Points</b></button>
+      <button (click)="sortByGoalsScored()" class="button"><b>Goals Scored</b></button>
+      <button (click)="sortByWins()" class="button"><b>Wins</b></button>
+    </div>
+
+    <div class="table">
+      <table style="width:1150px">
+        <thead>
+          <tr>
+            <th>Club Name</th>
+            <th>Wins</th>
+            <th>Draws</th>
+            <th>Defeats</th>
+            <th>Goals Scored</th>
+            <th>Goals Received</th>
+            <th>Points</th>
+            <th>Matches Played</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of ItemsArray">
+            <td>{{ item.nameOfClub }}</td>
+            <td>{{ item.noOfWins }}</td>
+            <td>{{ item.noOfDraws }}</td>
+            <td>{{ item.noOfDefeats}}</td>
+            <td>{{ item.noOfGoalsScored }}</td>
+            <td>{{ item.noOfGoalsReceived }}</td>
+            <td>{{ item.noOfPoints }}</td>
+            <td>{{ item.noOfMatchesPlayed }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</div>

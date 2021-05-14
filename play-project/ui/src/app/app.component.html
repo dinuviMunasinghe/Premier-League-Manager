@@ -1,0 +1,23 @@
+<div class="page">
+  <div class="image">
+    <img src="assets/images/logo-1.jfif" alt="logo">
+  </div>
+
+  <div class="title">
+    <p>PREMIER  LEAGUE</p>
+  </div>
+
+  <div class="top-nav">
+    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+        <ul class="nav navbar-nav" routerLinkActive="main-page">
+          <li><a routerLink="match-details-page">Match Details</a></li>
+          <li><a routerLink="random-match">Play A Match</a></li>
+          <li><a routerLink="club-details-page">Sorting Clubs</a></li>
+          <li><a routerLink="home-page">Home</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <!--  Routed views go here-->
+  <router-outlet></router-outlet>
+</div>

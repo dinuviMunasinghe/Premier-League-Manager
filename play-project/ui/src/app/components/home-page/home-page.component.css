@@ -1,0 +1,27 @@
+.main-background-image {
+  background-image: url("src/assets/images/pic.jpg");
+  background-color: #cccccc;
+  min-height: 90vh;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter:brightness(80%);
+}
+
+.main-content {
+  text-align: justify;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+p {
+  font-size: 30px;
+  text-align-last: center;
+  line-height: 1.8;
+  margin-top: 60px;
+}

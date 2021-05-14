@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="image"></div>
+
+  <div class="button-row">
+    <input type="text" #date>
+    <button (click)="dateEntered(date.value)" class="button">Search A Match</button>
+    <button (click)="sortMatches()" class="button">Sort Matches</button>
+  </div>
+
+<!--  <div class="block">-->
+    <div class="block">
+      <table style="width:1150px">
+        <thead>
+        <tr>
+          <th>Team One Name</th>
+          <th>Team One Score</th>
+          <th>Team Two Name</th>
+          <th>Team Two Score</th>
+          <th>Date</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr *ngFor="let item of ItemsArray">
+          <td>{{ item.teamOneName }}</td>
+          <td>{{ item.teamOneScore }}</td>
+          <td>{{ item.teamTwoName }}</td>
+          <td>{{ item.teamTwoScore}}</td>
+          <td>{{ item.date }}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+</div>

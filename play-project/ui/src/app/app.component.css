@@ -1,0 +1,43 @@
+.page {
+  background: linear-gradient(to right, #330033 0%, #9900ff 100%);
+}
+
+img {
+  float: left;
+  width: 100px;
+  height: 70px;
+}
+
+.title {
+  float: left;
+  color: white;
+  text-align: justify;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 5px 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 26px 55px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+li a:hover {
+  background-color:  #1f0033;
+}
